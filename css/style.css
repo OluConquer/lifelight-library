@@ -34,3 +34,18 @@ header {
     padding: 5px;
     text-align: right;
 }
+
+main {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.chat-wrapper {
+    width: 25%;
+    min-height: 200px;
+}
+
+.books-wrapper {
+    width: 75%;
+}
