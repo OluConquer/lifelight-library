@@ -58,3 +58,24 @@ main {
 .books-welcome, .books-trending, .books-list {
     min-height: 150px;
 }
+
+.chat-response {
+    min-height: 500px;
+}
+
+.chat-input {
+    display: flex;
+    vertical-align: middle;
+    gap: 5px;
+    padding: 10px;
+}
+
+.chat-input button {
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.chat-input textarea {
+    height: 50px;
+}
