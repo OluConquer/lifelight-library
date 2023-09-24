@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #e1dcc5;
+}
+
 .border {
     border: 1px solid red;
 }
@@ -39,6 +43,7 @@ main {
     display: flex;
     width: 900px;
     margin: 0 auto;
+    min-height: 200px;
 }
 
 .chat-wrapper {
@@ -48,4 +53,8 @@ main {
 
 .books-wrapper {
     width: 75%;
+}
+
+.books-welcome, .books-trending, .books-list {
+    min-height: 150px;
 }
